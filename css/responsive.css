@@ -1,0 +1,474 @@
+/* Responsive For Mobile */
+@media screen and (max-width: 500px){
+
+	.navbar-light .navbar-toggler {
+	    background: transparent;
+	    border-color: transparent;
+	    font-size: 30px;
+	    margin-top: 11px;
+	    color: #fff;
+	}
+	.header-section h1 {
+	    padding-top: 158px;
+	    width: 100%;
+	    font-size: 26px;
+	}
+	.btn-primary {
+	    font-size: 14px;
+	    padding: 10px 18px;
+	    margin: 30px auto 176px;
+	}
+	.services-section {
+	    padding: 50px 0px;
+	}
+	.services-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.services-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.services-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.services-section .div {
+	    padding-top: 30px;
+	}
+	.services-section .div h4 { 
+	    font-size: 19px;
+	    padding: 20px 0px 0px 0px;
+	}
+	.services-section .div p {
+	    font-size: 15px;
+	    width: 100%;
+	    line-height: 20px;
+	}
+
+	.team-section {
+	    padding: 50px 0px;
+	}
+	.team-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.team-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.team-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.team-section .tea {
+	    padding-top: 20px;
+	}
+	.team-section .tea h4 {
+	    font-size: 20px;
+	    font-weight: 600;
+	    padding: 20px 0px 0px 0px;
+	}
+	.team-section .tea p {
+	    font-size: 15px;
+	    padding: 3px 0px 0px 0px;
+	    width: 100%;
+	}
+	.team-section .tea .rigt {
+	   margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	.team-section .rig{
+		padding-top: 40px;
+	}
+
+
+	.skill-section {
+	    padding: 50px 0px;
+	}
+	.skill-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.skill-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.skill-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.skill-section .pro {
+	    padding-top: 8px;
+	}
+	.skill-section .pro h3 {
+	    font-size: 18px;
+	    padding-top: 0px;
+	}
+
+
+	.portfolio-section {
+	    padding: 50px 0px;
+	}
+	.portfolio-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.portfolio-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.portfolio-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.portfolio-section .but {
+	    padding: 30px 0px;
+	}
+	.btn-success {
+	    padding: 3px 15px;
+	}
+	.portfolio-section .do p {
+	    font-size: 14px;
+		padding: 3px 0px 20px 0px;
+		font-weight: 500;
+	}
+	.portfolio-section .pho {
+	    padding-top: 1px;
+	}
+	.portfolio-section .pho p{
+		padding: 5px 0px 22px 0px;
+	}
+	.btn-primary-port {
+	    font-size: 16px;
+	    padding: 10px 2px;
+	    margin: 0px auto;
+	}
+
+
+	.testimonial-section {
+	    padding: 50px 0px;
+	}
+	.testimonial-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.testimonial-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.testimonial-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.img-fluid-testi{
+		display: block;
+		margin: 0 auto;
+	}
+	.testimonial-section .test p {
+	    width: 100%;
+	    text-align: center;
+	    line-height: 19px;
+		padding-top: 0;
+	}
+	.testimonial-section .test h4 {
+	    font-size: 20px;
+	    text-align: center;
+	}
+	.testimonial-section .test h5 {
+	    font-size: 15px;
+	    text-align: center;
+	}
+	.testimonial-section .test .down {
+	    padding-top: 20px;
+	}
+
+
+
+	.contact-section {
+	    padding: 50px 0px;
+	}
+	.contact-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.contact-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.contact-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.form-group {
+	    padding-top: 16px;
+	}
+	.btn-primary-cont {
+	    padding: 8px 16px;
+	}
+
+
+	.footer-section {
+	    padding: 20px 0px;
+	}
+	.footer-section p {
+	    font-size: 14px;
+	}
+
+
+
+
+
+
+
+}
+
+
+/* Responsive For Tablet */
+@media (min-width: 501px) and (max-width: 768px){
+	
+	.navbar-light .navbar-toggler {
+	    background: transparent;
+	    border-color: transparent;
+	    font-size: 30px;
+	    margin-top: 11px;
+	    color: #fff;
+	}
+	.header-section h1 {
+	    padding-top: 158px;
+	    width: 100%;
+	    font-size: 28px;
+	}
+	.btn-primary {
+	    font-size: 14px;
+	    padding: 10px 18px;
+	    margin: 30px auto 178px;
+	}
+	.services-section {
+	    padding: 50px 0px;
+	}
+	.services-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.services-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.services-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.services-section .div {
+	    padding-top: 30px;
+	}
+	.services-section .div h4 { 
+	    font-size: 19px;
+	    padding: 20px 0px 0px 0px;
+	}
+	.services-section .div p {
+	    font-size: 15px;
+	    width: 100%;
+	    line-height: 20px;
+	}
+
+	.team-section {
+	    padding: 50px 0px;
+	}
+	.team-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.team-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.team-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.team-section .tea {
+	    padding-top: 20px;
+	}
+	.team-section .tea h4 {
+	    font-size: 20px;
+	    font-weight: 600;
+	    padding: 20px 0px 0px 0px;
+	}
+	.team-section .tea p {
+	    font-size: 15px;
+	    padding: 3px 0px 0px 0px;
+	    width: 100%;
+	}
+	.team-section .tea .rigt {
+	    padding-top: 15px;
+	}
+	.team-section .rig{
+		padding-top: 40px;
+	}
+
+
+	.skill-section {
+	    padding: 50px 0px;
+	}
+	.skill-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.skill-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.skill-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.skill-section .pro {
+	    padding-top: 8px;
+	}
+	.skill-section .pro h3 {
+	    font-size: 18px;
+	    padding-top: 0px;
+	}
+
+
+	.portfolio-section {
+	    padding: 50px 0px;
+	}
+	.portfolio-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.portfolio-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.portfolio-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.portfolio-section .but {
+	    padding: 30px 0px;
+	}
+	.btn-success {
+	    padding: 3px 15px;
+	}
+	.portfolio-section .do p {
+	    font-size: 14px;
+		padding: 3px 0px 20px 0px;
+		font-weight: 500;
+	}
+	.portfolio-section .pho {
+	    padding-top: 1px;
+	}
+	.portfolio-section .pho p{
+		padding: 5px 0px 22px 0px;
+	}
+	.btn-primary-port {
+	    font-size: 16px;
+	    padding: 10px 2px;
+	    margin: 0px auto;
+	}
+
+
+	.testimonial-section {
+	    padding: 50px 0px;
+	}
+	.testimonial-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.testimonial-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.testimonial-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.img-fluid-testi{
+		display: block;
+		margin: 0 auto;
+	}
+	.testimonial-section .test p {
+	    width: 100%;
+	    text-align: center;
+	    line-height: 19px;
+		padding-top: 0;
+	}
+	.testimonial-section .test h4 {
+	    font-size: 20px;
+	    text-align: center;
+	}
+	.testimonial-section .test h5 {
+	    font-size: 15px;
+	    text-align: center;
+	}
+
+
+
+	.contact-section {
+	    padding: 50px 0px;
+	}
+	.contact-section h2 {
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	.contact-section .bord {
+	    margin: 20px auto 11px;
+	    width: 60px;
+	}
+	.contact-section p {
+	    font-size: 15px;  
+	    width: 100%;
+	}
+	.form-group {
+	    padding-top: 16px;
+	}
+	.btn-primary-cont {
+	    padding: 8px 16px;
+	}
+
+	
+	.footer-section {
+	    padding: 20px 0px;
+	}
+	.footer-section p {
+	    font-size: 16px;
+	}
+
+}
+
+/* Responsive For Notebook */
+@media (min-width: 769px) and (max-width: 990px){
+	
+
+
+}
+@media and (max-width: 980px){
+
+
+	.header-section h1 {
+	    padding-top: 90px;
+	    width: 100%;
+	}
+	.btn-primary {
+	    margin: 70px auto 135px;
+	}
+
+
+
+
+}
+
+@media (min-width: 991px) and (max-width: 1024px){
+	
+	.team-section .tea .rigt {
+	    width: 84%;
+	}
+	.team-section .tea p {
+	    width: 105%;
+	}
+
+}

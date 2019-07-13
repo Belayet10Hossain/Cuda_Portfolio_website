@@ -1,0 +1,485 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap');
+/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+/* Header Section CSS Start */
+.header-section{
+	background: linear-gradient(rgba(135, 80, 156, 0.9),rgba(135, 80, 156, 0.9)), url(../images/hero-bg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #643a79;
+    border-radius: 3px;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+	padding: 0px 16px 0px 16px;
+	margin: 8px 10px 0px 0px;
+    transition: 0.4s ease-in-out;
+} 
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #643a79;
+    color: #fff;
+	padding: 0px 16px 0px 16px;
+	margin-top: 8px;
+	border-radius: 3px;
+}
+
+.sticky{
+	
+}
+
+.header-section h1{
+	color: #f7f3ea;
+	font-size: 42.16px;
+	font-weight: 700;
+	padding-top: 159px;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #eb7d4b;
+    border-color: #eb7d4b;
+    display: block;
+    font-size: 18px;
+    padding: 14px 40px;
+    margin: 70px auto 204px;
+    transition: 0.4s ease-in-out;
+}
+.btn-primary:hover{
+	background: #643a79;
+	border-color: #643a79;
+}
+
+
+/* Services Section CSS Start */
+.services-section{
+	padding: 80px 0px;
+	background: linear-gradient(rgba(23, 194, 164, 0.9),rgba(23, 194, 164, 0.9)), url(../images/services-bg.jpg) no-repeat center;
+	background-size: cover;
+}
+.services-section h2{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.services-section .bord{
+	border: 2px solid #14a58c;
+	width: 90px;
+	display: block;
+	margin: 20px auto;
+}
+.services-section p{
+	color: #fff;
+    font-size: 18px;
+    text-align: center;
+    width: 53%;
+    margin: 0 auto;
+}
+.services-section .div{
+	padding-top: 74px;
+}
+.services-section .div img{
+	display: block;
+	margin: 0 auto;
+}
+.services-section .div h4{
+	color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 32px 0px 10px 0px;
+    text-transform: uppercase;
+}
+.services-section .div p{
+	color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+}
+.services-section .div .up{
+	margin-top: -9px;
+}
+
+
+/* Team Section CSS Start */
+.team-section{
+	padding: 80px 0px;
+	background: linear-gradient(rgba(231, 241, 248, 0.8),rgba(231, 241, 248, 0.8)), url(../images/team-bg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.team-section h2{
+	color: #3c4761;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.team-section .bord{
+	border: 2px solid #c8d9e5;
+	width: 90px;
+	display: block;
+	margin: 20px auto;
+}
+.team-section p{
+	color: #3c4761;
+    font-size: 18px;
+    text-align: center;
+}
+.team-section .tea{
+    padding-top: 60px;
+}
+.team-section .tea img{
+	border: 1px solid #e7f1f8;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.team-section .tea h4{
+	color: #3c4761;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    margin-bottom: -3px;
+    text-transform: uppercase;
+}
+.team-section .tea h5{
+	color: #48c1e9;
+    font-size: 16px;
+    text-align: center;
+}
+.team-section .tea p{
+	color: #3c4761;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px 0px 0px 0px;
+    width: 90%;
+    margin: 0 auto;
+}
+.team-section .tea .rigt{
+	margin: 0 auto;
+    width: 67%;
+    padding-top: 21px;
+}
+.team-section .tea .fa{
+	color: #fff;
+    background: #bdd1df;
+    text-align: center;
+    padding: 10px;
+    width: 40px;
+    border: 1px solid #e7f1f8;
+    border-color: transparent;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+}
+.team-section .tea .fa:hover{
+	background: #3c4761;
+	transform: rotate(360deg);
+	cursor: pointer;
+	border-color: #3c4761; 
+}
+
+
+/* Skill Section CSS Start */
+.skill-section{
+	padding: 80px 0px;
+	background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(../images/skill-bg.jpg) no-repeat center;
+	background-size: cover;
+}
+.skill-section h2{
+	color: #3c4761;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.skill-section .bord{
+	border: 2px solid #dfe8ed;
+	width: 90px;
+	display: block;
+	margin: 20px auto;
+}
+.skill-section p{
+	color: #3c4761;
+    font-size: 18px;
+    text-align: center;
+    width: 54%;
+    margin: 0 auto;
+}
+.skill-section .pro{
+	padding-top: 60px; 
+}
+.skill-section .pro h3 {
+	color: #3c4761;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+svg.radial-progress {
+    margin: 0 auto;
+    display: block;
+}
+svg.radial-progress circle{
+	stroke-width: 5;	
+}
+svg.radial-progress text{
+	fill: #3c4761;
+	font-size: 30px;
+}
+svg.web-design circle{
+	stroke: #30bae7;
+}
+svg.html circle{
+	stroke: #d74680;
+}
+svg.graphic circle{
+	stroke: #15c7a8;
+}
+svg.ui circle{
+	stroke: #eb7d4b;
+}
+
+
+/* Portfolio Section CSS Start */
+.portfolio-section{
+	padding: 80px 0px 95px 0px;
+	background:linear-gradient(rgba(255, 221, 153, 0.8), rgba(255, 221, 153, 0.8)), url(../images/portfolio-bg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+.portfolio-section .mixitup-control-active{
+	background: #fff;
+}
+.portfolio-section h2{
+	color: #393939;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.portfolio-section .bord{
+	border: 2px solid #e5c37f;
+	width: 90px;
+	display: block;
+	margin: 20px auto;
+}
+.portfolio-section p{
+	color: #393939;
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.portfolio-section .but{
+	padding: 60px 0px;
+	text-align: center;
+}
+.btn-success {
+    color: #393939;
+    background-color: #ebc985;
+    border-color: #ebc985;
+    padding: 5px 25px;
+    transition: 0.4s ease-in-out;
+}
+.btn-success:hover{
+	background: #fff;
+	border-color: #fff;
+	color: #393939;
+}
+.portfolio-section .pho{
+	padding-top: 60px;
+
+}
+.portfolio-section .do p{
+	color: #60584a;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+}
+.btn-primary-port{
+    color: #fff;
+    background-color: #17c2a4;
+    border-color: #17c2a4;
+    display: block;
+    font-size: 18px;
+    padding: 14px 24px;
+    margin: 0px auto;
+    transition: 0.4s ease-in-out;
+}
+.btn-primary-port:hover{
+	background: #643a79;
+	border-color: #643a79;
+	color: #fff;
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: none;
+}
+
+
+
+/* Testimonial Section CSS Start */
+.testimonial-section{
+	padding: 80px 0px;
+	background: linear-gradient(rgba(215, 70, 128, 0.8), rgba(215, 70, 128, 0.8)), url(../images/testimonial-bg.jpg) no-repeat center;
+	background-size: cover;
+}
+.testimonial-section h2{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.testimonial-section .bord{
+	border: 2px solid #b73c6d;
+	width: 90px;
+	display: block;
+	margin: 20px auto 18px auto;
+}
+.testimonial-section p{
+	color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.testimonial-section img{
+	border: 1px solid #d74680;
+	border-radius: 50%;
+	border-color: transparent;
+}
+.testimonial-section .test p{
+	color: #fff;
+	width: 90%;
+	text-align: left;
+	line-height: 23px;
+	padding-top: 0;
+}
+.testimonial-section .test h4{
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: left;
+}
+.testimonial-section .test h5{
+	color: #ffdd99;
+	font-size: 18px;
+	margin-top: -8px;
+}
+.testimonial-section .test .down{
+	padding-top: 40px;
+}
+
+
+/* Contact Section CSS Start */
+.contact-section{
+	padding: 80px 0px;
+	background: linear-gradient(rgba(60, 84, 153, 0.8), rgba(60, 84, 153, 0.8)), url(../images/contact-bg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.contact-section h2{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.contact-section .bord{
+	border: 2px solid #273a71;
+	width: 90px;
+	display: block;
+	margin: 20px auto 18px auto;
+}
+.contact-section p{
+	color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0;
+}
+textarea.form-control {
+    height: auto;
+    height: 200px;
+    background: #273a71;
+    border-color: #273a71;
+    color: #fff;
+}
+.form-control {   
+    background-color: #273a71;
+    border: 1px solid #273a71;
+    height: 50px; 
+}
+.form-control .placeholder{
+	color: #fff;
+}
+.contact-section .dow{
+	padding-top: 40px;
+}
+.contact-section .dow .form-control{
+	color: #fff;
+	background: #273a71;
+}
+.btn-primary-cont{
+	color: #fff;
+	background-color: #30bae7;
+	border-color: #30bae7;
+	padding: 14px 36px;
+	transition: 0.4s ease-in-out;
+	margin: 40px auto 25px auto;
+}
+.btn-primary-cont:hover{
+	background: #87509c;
+	border-color: #87509c;
+	color: #fff;
+}
+
+
+/* Footer Section CSS Start */
+.footer-section{
+	padding: 40px 0px;
+	background: #344b8e;
+	border-top: .5px solid rgba(255, 255, 255, 0.5);
+}
+.footer-section p{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.footer-section a{
+	padding: 0px 10px;
+	transition: 0.3s ease-in-out;
+	color: #fff;
+}
+a:hover {
+    text-decoration: none;
+    color: #30bae7;
+}
